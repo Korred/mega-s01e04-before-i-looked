@@ -1,6 +1,6 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
 ---
@@ -77,3 +77,17 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+1. [#1 — Read and aggregate nightly run logs](https://github.com/Korred/mega-s01e04-before-i-looked/issues/1)
+2. [#2 — Render the nightly digest page](https://github.com/Korred/mega-s01e04-before-i-looked/issues/2)
+3. [#3 — Expose digest rows as JSON](https://github.com/Korred/mega-s01e04-before-i-looked/issues/3)
+4. [#4 — Link each status-board night to its digest](https://github.com/Korred/mega-s01e04-before-i-looked/issues/4)
+5. [#5 — Verify digest HTML and JSON routes](https://github.com/Korred/mega-s01e04-before-i-looked/issues/5)
+6. [#6 — Publish the digest HTML copy for review](https://github.com/Korred/mega-s01e04-before-i-looked/issues/6)
+7. [#7 — Remove the public lane marker after review](https://github.com/Korred/mega-s01e04-before-i-looked/issues/7)
+
+Preview: https://mega-s01e04.kochanskip.workers.dev
+
+The reviewer saw the preview before cleanup. The marker was removed after human approval and the same preview URL was replaced with the marker-free page.
