@@ -18,10 +18,10 @@ export function createApp(config: RigConfig = loadConfig()) {
     return digest ? c.json(digest) : c.json({ error: 'not found' }, 404);
   });
 
-  app.get('/', (c) =>
+  app.get('/', async (c) =>
     c.html(
       <Layout title="status" lane={lane()}>
-        <StatusBoard status={readStatus(config)} />
+        <StatusBoard status={await readStatus(config)} />
       </Layout>,
     ),
   );
